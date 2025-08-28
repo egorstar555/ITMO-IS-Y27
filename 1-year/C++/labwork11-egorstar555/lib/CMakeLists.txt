@@ -1,0 +1,2 @@
+add_library(SimpleSearchEngine_lib SimpleSearchEngine.cpp SimpleSearchEngine.h
+)

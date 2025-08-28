@@ -1,0 +1,1 @@
+INSERT INTO public.users (name, password, role) values ('admin', '$2a$10$c7qfvEdVNwkt8YkIvtMATuYLyh51GA0G0xackm7lM/pmw99vovzqa', 'admin')

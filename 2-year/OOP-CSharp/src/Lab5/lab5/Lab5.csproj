@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Itmo.ObjectOrientedProgramming.Lab5</RootNamespace>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Spectre.Console" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Application\Lab5.Application\Lab5.Application.csproj" />
+      <ProjectReference Include="..\Infrastructure\Lab5.Infrastructure.DataAccess\Lab5.Infrastructure.DataAccess.csproj" />
+      <ProjectReference Include="..\Presentation\Lab5.Presentation.Console\Lab5.Presentation.Console.csproj" />
+    </ItemGroup>
+
+</Project>
